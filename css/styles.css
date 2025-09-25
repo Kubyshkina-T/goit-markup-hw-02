@@ -100,12 +100,6 @@ letter-spacing: 0.04em;
 /* Sektion Two */
 .visually-hidden {
 position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -175,11 +169,6 @@ list-style-type: none;
 /* Footer */
 .footer {
     background-color:#2E2F42 ;
-    height: 1.440px;
-    height: 312px;
-  
-   
-
 }
 
 .logo-light {
