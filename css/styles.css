@@ -1,0 +1,159 @@
+/* Header */
+body {
+    font-family: 'Roboto', 'Raleway', sans-serif;
+font-weight:400;
+color: #2E2F42;
+}
+header {
+    color:#FFFFFF;
+}
+.logo {
+    text-transform: uppercase;
+    color:#4D5AE5;
+    font-family: 'Raleway'; font-weight: 700;
+    text-decoration: none;
+    font-size: 18px ;
+    line-height: 1.17;
+ }
+.logo-dark {
+    color:#2E2F42;
+    font-size: 18px;
+    line-height: 1.17;
+}
+.menu {
+  color:#2E2F42;
+font-size: 16px;
+    line-height: 1.5;
+
+}
+.page-nav {
+color:#2E2F42;
+font-size: 16px;
+line-height: 1.5;
+text-decoration: none;
+ list-style-type: none;
+}
+.page-nav .link:hover,
+.page-nav .link:focus {
+color:#404BBF;
+}
+.link {
+   color: #2E2F42;  
+ font-weight: 500 ;
+ list-style-type: none;
+ text-decoration: none;  
+}
+.address-link {
+ color: #2E2F42;  
+ font-weight: 400 ;
+ list-style-type: none;
+ text-decoration: none;
+ font-style: normal;
+ font-size: 16px;
+ line-height: 1.5;
+}
+.address-link:hover {
+    color:#404BBF;
+}
+
+/* Section One */
+.main-title {
+    color:#FFFFFF;
+   font-weight: 700;
+    background-color: #2E2F42;
+    font-size: 56px;
+    line-height: 1.07;
+}
+#button {
+ background-color: #4D5AE5;  
+ color: #FFFFFF;
+ font-size: 16px;
+ line-height: 1.5;
+ cursor: pointer;
+ border: none;
+ border-radius: 4px ;
+ padding-top: 16px;
+ padding-bottom: 16px;
+ width: 169px;
+ height: 56px;
+}
+#button:hover,
+#button:active {
+    background-color: #404BBF;
+    color:#FFFFFF;
+}
+
+/* Sektion Two */
+.visually-hidden {
+display: none;
+}
+.benefits {
+    color:#434455 ;
+    font-size: 16px;
+    text-decoration: none;
+    list-style-type: none;
+    }
+
+.sub-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+/* Section Tree */
+.team {
+    background-color:#F4F4FD ;
+}
+.sub-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.1;
+}
+.list-team {
+text-decoration: none;
+list-style-type: none;
+}
+.team-card {
+  background-color:#FFFFFF ;  
+}
+.sub-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.paragraph {
+    color:#434455 ;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Section Four */
+.ul-portfolio {
+text-decoration: none;
+list-style-type: none;
+}
+.portfolio {
+    background-color: #E7E9FC;
+}
+
+/* Footer */
+.footer {
+    background-color:#2E2F42 ;
+    height: 1.440px;
+    height: 312px;
+    padding-top: 100px;
+    padding-left: 156px;
+}
+
+.logo-light {
+color: #F4F4FD;
+    font-size: 18px;
+    line-height: 1.17;
+}
+.paragraph-footer {
+   color: #F4F4FD;
+   font-size: 12px;
+   line-height: 1.5;
+   padding-top: 16px;
+   max-width: 264px;
+}
