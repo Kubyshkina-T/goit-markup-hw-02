@@ -99,7 +99,6 @@ letter-spacing: 0.04em;
 
 /* Sektion Two */
 .visually-hidden {
-position: absolute;
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -180,6 +179,5 @@ color: #F4F4FD;
    color: #F4F4FD;
    font-size: 12px;
    line-height: 1.5;
-   max-width: 264px;
 letter-spacing: 0.02em;
 }
