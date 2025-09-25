@@ -64,8 +64,13 @@ letter-spacing: 0.02em;
 .address-link:focus {
     color:#404BBF;
 }
-
+.contakts {
+font-style: normal;
+}
 /* Section One */
+.main-title{
+    background-color: #2E2F42;
+}
 .title {
     color:#FFFFFF;
    font-weight: 700;
@@ -87,14 +92,24 @@ letter-spacing: 0.04em;
  border: none;
 }
 .button:hover,
-.button:active {
+.button:focus{
     background-color: #404BBF;
     color:#FFFFFF;
 }
 
 /* Sektion Two */
 .visually-hidden {
-display: none;
+position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 .benefits {
     color:#434455 ;
@@ -112,7 +127,8 @@ display: none;
     text-transform: capitalize;
     color: #2e2f42;}
      .paragraph-first {
-
+line-height: 1.5;
+letter-spacing: 0.02em;
      }
 /* Section Tree */
 .team {
